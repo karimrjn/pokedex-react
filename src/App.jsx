@@ -12,7 +12,9 @@ function App() {
     },
   ];
 
-  const bulbasaur = pokemonList.filter(pokemon => pokemon.name === 'bulbasaur');
+  const bulbasaur = pokemonList.filter(
+    (pokemon) => pokemon.name === "bulbasaur"
+  );
 
   return (
     <div>
